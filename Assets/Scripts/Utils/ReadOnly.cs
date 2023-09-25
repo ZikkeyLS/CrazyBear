@@ -7,6 +7,7 @@ using UnityEngine;
 /// </summary>
 public class ReadOnlyAttribute : PropertyAttribute { }
 
+#if UNITY_EDITOR
 /// <summary>
 /// This class contain custom drawer for ReadOnly attribute.
 /// </summary>
@@ -31,3 +32,4 @@ public class ReadOnlyDrawer : PropertyDrawer
         GUI.enabled = previousGUIState;
     }
 }
+#endif

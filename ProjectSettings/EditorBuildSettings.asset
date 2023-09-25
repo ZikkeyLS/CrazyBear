@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d9138ee3f9e8c3746b7c5a33fabd16db
+  - enabled: 1
     path: Assets/Scenes/LevelTypes/City.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LevelTypes/Forest.unity
+    guid: cc509fd5cbf8960438d447c7b521844b
+  - enabled: 1
+    path: Assets/Scenes/LevelTypes/MilitaryBase.unity
+    guid: 7dc9c2817e1172c498e66b6ff722a4d0
   m_configObjects: {}
